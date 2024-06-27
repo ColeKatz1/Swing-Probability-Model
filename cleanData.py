@@ -9,11 +9,11 @@ from pybaseball import statcast
 
 
 
-df2022 = statcast(start_dt='2022-04-07', end_dt='2022-05-07')
+df2022 = statcast(start_dt='2022-04-07', end_dt='2023-03-07')
 df2022 = df2022[['release_speed','batter','pitcher','description','stand','p_throws','pitch_type','balls','strikes','pfx_x','pfx_z','plate_x','plate_z','sz_top','sz_bot']]
 df2022 = df2022.reset_index()
 
-df2023 = statcast(start_dt='2023-03-10', end_dt='2023-05-07')
+df2023 = statcast(start_dt='2023-03-10', end_dt='2024-03-07')
 df2023 = df2023[['release_speed','batter','pitcher','description','stand','p_throws','pitch_type','balls','strikes','pfx_x','pfx_z','plate_x','plate_z','sz_top','sz_bot']]
 df2023 = df2023.reset_index()
 
